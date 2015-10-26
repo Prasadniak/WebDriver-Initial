@@ -1,0 +1,30 @@
+package Exampleweek1;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TRY1XPATH3 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.w3schools.com/");
+		driver.findElement(By.xpath("//*[@id='menubtn']")).click();
+	//	driver.findElement(By.xpath("//*[@id='sidemenu']/a[starts-with(text(),'Learn Boo')]")).click();
+	//	driver.findElement(By.xpath("//*[@id='sidemenu']/a[contains(text(),'arn Boo')]")).click();
+		
+	//	driver.findElement(By.xpath("//*[@id='main']/div[1]/div[1]/a[2]")).click();
+	//	driver.findElement(By.xpath("(//*[@id='main']/div[1]/div[1]/a)[last()]")).click();
+	//	driver.findElement(By.xpath("(//*[@id='main']/div[1]/div[1]/a)[last()-1]")).click();
+		driver.findElement(By.xpath("(//*[@id='main']/div[1]/div[1]/a)[position()=2]")).click();
+		
+		
+		//-----------------------------------------------------------------------
+		//driver.get("http://www.google.com/");
+		//driver.findElement(By.xpath("//a[@id='gb_70']")).click();
+		//driver.findElement(By.xpath("//a[starts-with(@id,'gb_7')]")).click();
+		//driver.findElement(By.xpath("//a[contains(@id,'b_7')]")).click();
+		//driver.findElement(By.linkText("Create account")).click();
+	}
+}

@@ -1,0 +1,36 @@
+package Exampleweek1;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TRY4Locator1 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.w3schools.com/");
+		/*List<WebElement> l = driver.findElements(By.tagName("a"));
+		for(int i=0;i<l.size();i++)
+		{
+			if(l.get(i).equals("LEARN PHP"))
+			{
+				l.get(i).click();
+			}
+			//System.out.println(l.get(i).getText());
+		}*/
+		
+		List<WebElement> l = driver.findElements(By.className("w3-btn sectionbtn"));
+		for(int i=0;i<l.size();i++)
+		{
+			if(l.get(i).getText().equals("LEARN CSS"))
+			{
+				l.get(i).click();
+			}
+			//System.out.println(l.get(i).getText());
+		}
+	}
+}

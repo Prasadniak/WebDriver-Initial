@@ -1,0 +1,30 @@
+package TestNGBasic;
+
+import org.testng.annotations.Test;
+
+public class TRY1Grouping 
+{
+	@Test(groups={"performance"})
+	public void F1()
+	{
+		System.out.println("My name is F1");
+	}
+	
+	@Test(groups={"performance"})
+	public void F2()
+	{
+		System.out.println("My name is F2");
+	}
+	
+	@Test(groups={"regression"})
+	public void F3()
+	{
+		System.out.println("My name is F3");
+	}
+	
+	@Test(groups={"performance","regression"})
+	public void F4()
+	{
+		System.out.println("My name is 4!");
+	}
+}

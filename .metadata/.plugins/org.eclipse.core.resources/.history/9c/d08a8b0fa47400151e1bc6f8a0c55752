@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99" started-at="2015-10-16T07:17:46Z" finished-at="2015-10-16T07:17:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99" started-at="2015-10-16T07:17:46Z" finished-at="2015-10-16T07:17:46Z">
+      <class name="TestNGListener.LoginTest">
+        <test-method status="PASS" signature="loginwithEmail()[pri:0, instance:TestNGListener.LoginTest@17f6796]" name="loginwithEmail" duration-ms="41" started-at="2015-10-16T00:17:46Z" finished-at="2015-10-16T00:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithEmail -->
+        <test-method status="PASS" signature="loginwithFacebook()[pri:0, instance:TestNGListener.LoginTest@17f6796]" name="loginwithFacebook" duration-ms="5" started-at="2015-10-16T00:17:46Z" finished-at="2015-10-16T00:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithFacebook -->
+      </class> <!-- TestNGListener.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

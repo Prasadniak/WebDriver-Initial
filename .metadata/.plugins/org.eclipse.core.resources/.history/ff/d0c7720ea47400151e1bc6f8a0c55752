@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+  <groups>
+  		<run>
+  			<exclude name="performance" />
+  		</run>
+  </groups>
+    <classes>
+      <class name="TestNGBasic.TRY1Grouping"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

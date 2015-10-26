@@ -1,0 +1,9 @@
+<suite name="suite for Parameterization">
+
+<parameter name="name" value="Prasad Naik" />
+  <test verbose="2" name="Parameterization test">
+    <classes>
+      <class name="TestNGBasic.TRY1Parameterization"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

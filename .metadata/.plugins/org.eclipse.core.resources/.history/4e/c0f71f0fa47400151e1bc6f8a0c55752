@@ -1,0 +1,14 @@
+package TestNGBasic;
+
+import org.junit.Test;
+import org.testng.annotations.Parameters;
+
+public class TRY1Parameterization
+{
+	@Parameters("uname")
+	@Test
+	public void TestName(String uname)
+	{
+		System.out.println("THe name is ");
+	}
+}

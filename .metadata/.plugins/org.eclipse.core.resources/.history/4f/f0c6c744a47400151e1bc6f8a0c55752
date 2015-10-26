@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2015-10-16T06:19:03Z" finished-at="2015-10-16T06:19:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2015-10-16T06:19:03Z" finished-at="2015-10-16T06:19:03Z">
+      <class name="TestNg.TestNgPriority">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNg.TestNgPriority@6833ce2c]" name="login" duration-ms="11" started-at="2015-10-15T23:19:03Z" finished-at="2015-10-15T23:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="navigating()[pri:0, instance:TestNg.TestNgPriority@6833ce2c]" name="navigating" duration-ms="0" started-at="2015-10-15T23:19:03Z" finished-at="2015-10-15T23:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigating -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNg.TestNgPriority@6833ce2c]" name="logout" duration-ms="0" started-at="2015-10-15T23:19:03Z" depends-on-methods="TestNg.TestNgPriority.navigating, TestNg.TestNgPriority.login" finished-at="2015-10-15T23:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNg.TestNgPriority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

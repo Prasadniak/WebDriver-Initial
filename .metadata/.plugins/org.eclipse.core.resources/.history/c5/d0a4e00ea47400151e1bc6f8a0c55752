@@ -1,0 +1,22 @@
+package Exampleweek1;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TRY3XPATH2 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.w3schools.com/");
+		driver.findElement(By.xpath("//*[@id='menubtn']")).click();
+		
+		//driver.findElement(By.xpath("//*[@id='sidemenu']/a[text()='Learn CSS']/preceding-sibling::a[1]")).click();
+		driver.findElement(By.xpath("//*[@id='sidemenu']/a[text()='Learn CSS']/following-sibling::a[2]")).click();
+		
+		//driver.findElement(By.xpath("//*[@id='sidemenu']/a[text()='Learn CSS']/parent::div/parent::div/div[1]/div[1]/a[1]")).click();
+		
+	}
+
+}
